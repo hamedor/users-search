@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "declaration": true,
+    "declarationDir": "./dist",
+    "composite": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "jsx": "preserve",
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue", "src/**/*.d.ts"],
+  "exclude": ["node_modules"]
+}
